@@ -28,9 +28,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
   }
-  .sheet {
-    list-style-type: none;
-  }
+
 
   section{
   padding-top: 94px;
@@ -54,7 +52,7 @@ body {
     letter-spacing: 0.03em;
     color: #2196f3;
     text-decoration: none;
-    padding-right: 93px;
+    margin-right: 93px;
     padding-top:  24px;
     padding-bottom: 25px;
   }
@@ -161,6 +159,7 @@ body {
     height: 120px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
   }
   .hero-bth {
     font-family: "Roboto", sans-serif;
@@ -177,11 +176,15 @@ body {
     padding-bottom: 10px;
     padding-left: 32px;
     padding-right: 32px;
-    margin-top: 30px;
   }
   .power {
     display: none;
   }   
+
+ .doit-main{
+   padding-top: 0;
+ }
+
      
   .features-list{
     display: flex;
@@ -231,17 +234,19 @@ body {
     color: #212121;
     text-align: center;
     margin-bottom: 50px;
+
   }
 
  .img-item + .img-item{
  margin-left: 30px;
+
  }
 
 
   .list-img{
     display: flex;
     list-style-type: none;
-    padding-bottom: 94px;
+
   }
 
   .team{
@@ -284,11 +289,7 @@ background: #FFFFFF;
 
     
      .worker-description{
-     padding-left: 65px;
-     padding-right: 65px;
-   white-space: nowrap;
-    padding-bottom: 30px;
-    margin-top: 30px;
+     padding: 30px 32px ;
      }
 
 
@@ -343,7 +344,7 @@ footer{
 }
   
 address{
-  padding-top: 20px;
+margin-top: 20px;
 }
 
   .title-footer {
@@ -410,17 +411,17 @@ white-space: nowrap;
   .bth-filter{
     display: flex;
     list-style-type: none;
-    margin-left: 280px;
+    margin-bottom: 50px;
+    justify-content:center;
   }
-   .bth-item{
-     margin-bottom: 34px;
-   }
+   
         .bth-item + .bth-item{
           margin-left: 8px;
         }
 
   .button-nav{
-    display: none;
+  
+    visibility: hidden;
   }
   .bth-all {
     font-family: "Roboto", sans-serif;
@@ -550,9 +551,6 @@ white-space: nowrap;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
-    margin-left: 24px;
-    margin-bottom: 4px;
   }
   .definition {
     font-family: "Roboto", sans-serif;
@@ -562,8 +560,6 @@ white-space: nowrap;
     color: #757575;
     font-style: normal;
     font-weight: normal;
-    margin-left: 24px;
-    margin-bottom: 20px;
   }
      
   .progect-list{
@@ -584,6 +580,8 @@ margin-top: 30px;
 
 .progect-description{
   border: 1px solid #EEEEEE;
+  border-top: 0;
+  padding: 20px 24px;
 }
 
 
